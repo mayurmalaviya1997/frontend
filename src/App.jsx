@@ -8,10 +8,17 @@ import Cart from './component/Cart'
 const App = () => {
   return (
     <div>
+
+
         <Routes>
+
           <Route path="/" element={  <Home/>} />
+
           <Route path="/cart" element={  <Cart/>} />
         </Routes>
+
+
+        
     </div>
     
   )
