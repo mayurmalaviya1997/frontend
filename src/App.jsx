@@ -9,6 +9,7 @@ const App = () => {
   return (
     <div>
       <h1> chnages in master branch </h1>
+      <h1>chnages from amster branch </h1>
         <Routes>
           <Route path="/" element={  <Home/>} />
           <Route path="/cart" element={  <Cart/>} />
